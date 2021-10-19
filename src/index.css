@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-container{
+    @apply 
+    h-screen 
+    flex 
+    items-center 
+    justify-center
+}
+
+.tip-container{
+    @apply 
+    flex 
+    justify-center 
+    items-center 
+    flex-col 
+    lg:flex-row 
+    lg:justify-between 
+    w-9/12 
+    md:w-3/5
+    py-8 
+    px-5 
+    bg-gray-200
+}
+
+.buttons{
+    @apply
+    bg-blue-400  
+    p-2 
+    text-yellow-300 
+    text-xl 
+    font-bold 
+    rounded-md 
+    font-mono
+}
+
+.inputs{
+    @apply
+    bg-blue-400  
+    p-2 
+    text-yellow-300 
+    text-xl 
+    font-bold 
+    rounded-md 
+    font-mono
+}
